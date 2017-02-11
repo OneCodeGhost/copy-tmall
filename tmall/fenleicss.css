@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+}
+.sortImg{
+    max-width: 1013px;;
+    margin:10px auto;
+}
+div.categorySortBar{
+    padding:15px 100px;
+}
+div.sortBar{
+    display:inline-block;
+    margin-right:5px;
+}
+div.sortBar a{
+    float:left;
+    border:1px solid #aaa9a8;
+    margin-left:-1px;
+    overflow:hidden;
+    padding:3px;
+    color:#806F66;
+}
+div.sortBar a.grayColumn,div.sortSearch div.grayColumn{
+    background-color: rgb(215, 215, 215);
+}
+div.sortSearch{
+    display:inline-block;
+    position:absolute;
+    margin-left:2px;
+    border:1px solid #aaa9a8;
+    height:25px;
+}
+div.sortSearch div.grayColumn{
+    display:inline-block;
+}
+div.sortSearch input{
+    outline:none;
+    width:50px;
+    padding:3px;
+    border:none;
+}
+div.sortSearch div{
+    border:1px solid #aaa9a8;
+    width:8px;
+    height:20px;
+    margin-top:-4px;
+}
+div.sortBar a:hover{
+    color:#c40000;
+    background-color:#dedede;
+    text-decoration:none;
+}
+div.categoryProducts{
+    max-width:1013px;
+    margin:0 auto;
+    padding:0 20px 40px 20px;
+}
+div.categoryProducts div.productUnitFrame{
+    width:225px;
+    height:338px;
+    float:left;
+    border:3px solid transparent;
+    margin:15px 5px;
+}
+div.categoryProducts div.productUnitFrame:hover{
+    border:3px solid #c40000;
+}
+div.categoryProducts div.productUnitFrame img.productImage{
+    width:100%;
+}
+div.categoryProducts div.productUnitFrame span.product-Price{
+    color:#c40000;
+    font-size:20px;
+    padding:20px 10px;
+}
+div.categoryProducts div.productUnitFrame a.product-name{
+    display:block;
+    padding:5px 10px;
+    color:#333;
+}
+div.categoryProducts div.productUnitFrame a.product-name:hover{
+    color:#c40000;
+}
+div.categoryProducts div.productUnitFrame a.tmallLink{
+    padding-left:10px;
+    color:rgb(130, 126, 120);
+    text-decoration:underline;
+}
+div.categoryProducts div.productUnitFrame a.tmallLink:hover{
+    color:#c40000;
+}
+div.productUnitFrame div.productInfo{
+    padding:5px 0;
+    color:#999;
+    border-top:1px solid #eee;
+    margin:10px 10px;
+}
+div.productUnitFrame div.productInfo span.productReview{
+    border-left:1px solid #eee;
+    border-right:1px solid #eee;
+}
+div.productUnitFrame div.productInfo span.monthDeal,
+div.productUnitFrame div.productInfo span.productReview{
+    display: inline-block;
+    width:80px;
+    padding-left:6px;
+}
+div.productUnitFrame div.productInfo span.productDealNumber{
+    color:#B57C5B;
+    font-weight:bold;
+}
+div.productUnitFrame div.productInfo span.productReviewNumber{
+    color:#3388bb;
+    font-weight:bold;
+}
+div.productUnitFrame div.productInfo a.wangwang{
+    padding-left:6px;
+}
